@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>MEDIA'TECH</title>
+        <link href="insert.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="mainPage.html">Retour à la main page</a></li>
+            </ul>
+        </nav>
+        <div id="mediatheque"></div>
+        <h2>Insérer un livre dans la base de données</h2>
+        <form id="form">
+            <div>
+                <label>Auteur : <input id="author" type="text" required size="25"></label>
+            </div>
+            <div>
+                <label>Titre : <input id="title" type="text" required size="50"></label>
+            </div>
+            <div>
+                <label>Nombre de pages : <input id="numberOfPages" type="text" required size="5"></label>
+            </div>
+            <div>
+                <label>Genre : <input id="genre" type="text" required size="25"></label>
+            </div>
+            <button type="submit" value="GO!" name="test" id="button">OK</button>
+        </form>
+        <script src="insert.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEDIA'TECH</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="mainPage.html">Retour à la main page</a></li>
+        </ul>
+    </nav>
+    <form id="form">
+        <div>
+            <h2>Rechercher par ?</h2>
+            <label for="selector"></label>
+            <select id="selector" name="nom" size="1">
+                <option>Auteur</option>
+                <option>Livre</option>
+                <option>Genre</option>
+            </select>
+        </div>
+        <div>
+            <label for="word"><input type="text" id="word" required size="25"></label>
+        </div>
+    </form>
+    <div>
+        <button id="button">GO!</button>
+    </div>
+    <script src="search.js"></script>
+</body>
+</html>

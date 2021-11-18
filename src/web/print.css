@@ -1,0 +1,20 @@
+table, td {
+    border: 1px solid #150;
+}
+
+thead, tfoot {
+    background-color: #fe7904;
+}
+
+.oddRow {
+    background-color: rgb(117, 157, 255);
+}
+
+.evenRow {
+    background-color: rgb(38, 38, 255);
+    color : #ffffff;
+}
+
+table {
+    text-align: center;
+}
